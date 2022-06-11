@@ -82,7 +82,7 @@ namespace Microsoft.Xna.Framework.Media
 
 		#region Internal Constructors
 
-		internal Video(string fileName, GraphicsDevice device)
+		public Video(string fileName, GraphicsDevice device)
 		{
 			GraphicsDevice = device;
 
